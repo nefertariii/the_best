@@ -22,6 +22,9 @@
     border-radius:10px; 
     opacity:0.75;
 }
+.top-2:hover{
+    transform:scale(1.15);
+}
 
 .description{
     display:flex;
@@ -50,6 +53,9 @@
     border-radius:10px;
     opacity:0.8;
 }
+.buttom:hover{
+    transform:scale(1.1);
+}
 .news{
     text-decoration: none;
     font-weight:bold;
@@ -57,9 +63,10 @@
     color:black;
     margin-right:10px;
 }
+
 .box{
     margin-top:30px;
-    margin-left:40%;
+    margin-left:43%;
     /* margin: 5px 43%; */
     padding:10px 0px 0px 30px;
     width:200px;
@@ -79,6 +86,9 @@
     padding:20px 15px 60px 15px;
     background-color:lightgray;
 }
+.first:hover{
+    transform:scale(1.15);
+}
 /* .first-animation:hover{
     animation-name:bigger;
 }
@@ -91,29 +101,48 @@
     padding:20px 15px 60px 15px;
     background-color:lightgray;
 }
+.second:hover{
+    transform:scale(1.15);
+}
 .third{
     margin:20px 60px 40px 30px;
     padding:20px 15px 60px 15px;
     background-color:lightgray;
+}
+.third:hover{
+    transform:scale(1.15);
 }
 .forth{
     margin:0px 30px 40px 90px;
     padding:20px 15px 60px 15px;
     background-color:lightgray;
 }
+.forth:hover{
+    transform:scale(1.15);
+}
 .fifth{
     margin:0px 0px 40px 0px;
     padding:20px 15px 60px 15px;
     background-color:lightgray;
+}
+.fifth:hover{
+    transform:scale(1.15);
 }
 .sixth{
     margin:0px 60px 40px 30px;
     padding:20px 15px 60px 15px;
     background-color:lightgray;
 }
+.sixth:hover{
+    transform:scale(1.15);
+}
 .personal{
     display:flex;
-
+}
+.space{
+    width:400px;
+    height:800px;
+    background-color:rgba(71, 156, 128, 0.231);
 }
 
 .classroom1{
@@ -121,7 +150,8 @@
     margin-left:20px;
     width:600px;
     height:680px;
-    background-color:darkgrey;
+    border-radius:10px;
+    background-color:rgba(116, 151, 126, 0.463);
 }
 .classroom2{
     display:flex;
@@ -129,7 +159,11 @@
     margin-left:50px;
     width:500px;
     height:200px;
-    background-color:lightgrey;
+    border-radius:10px;
+    background-color:rgba(10, 15, 19, 0.358);
+}
+.classroom2:hover{
+    transform:scale(1.15);
 }
 .picture{
     margin-top:20px;
@@ -145,10 +179,12 @@
 }
 .myclass{
     text-decoration: none;
-    background-color:rgba(71, 156, 128, 0.231);
 }
-.myclass2{
-    text-decoration: none;
+.myclass:hover{
+    transform:scale(1.1);
+}
+.myclass2:hover{
+    transform:scale(1.1);
 }
 .myclass3{
     text-decoration: none;
@@ -159,12 +195,10 @@
 .attachment{
     background-color:rgba(173, 242, 242, 0.61);
     width:120px;
-    margin-left:10px;
+    margin-left:50px;
+    padding-top:15px;
     padding-right:10px;
-    border-radius:10px; 
+    border-radius:10px;
 }
-.attachment2{
-    display:flex;
-    background-color:lightgrey;
-}
+
 
