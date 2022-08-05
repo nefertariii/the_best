@@ -1,6 +1,7 @@
 .table{
     text-decoration: none;
-    font-size:30px;
+    padding-left:15px;
+    font-size:33px;
     font-weight:bold;
     color:black;
 }
@@ -8,17 +9,18 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#324231;
+    background-color:#14889f90;
     margin-top:0px;
     padding:10px 0px 30px 10px;
     position: sticky;
 }
 
 .top-2{
+    border:2px dashed black;
     width:350px;
     margin:15px;
-    padding-left:20px;
-    background-color:rgb(86, 133, 116); 
+    /* padding-left:20px; */
+    background-color:rgb(199, 223, 255);
     border-radius:10px; 
     opacity:0.75;
 }
@@ -47,8 +49,9 @@
     border: 0;
 }
 .buttom{
+    border:2px dashed black;
     text-decoration: none;
-    background-color:rgb(167, 234, 148);
+    background-color:rgb(199, 223, 255);
     padding:3px 0px 3px 5px;
     border-radius:10px;
     opacity:0.8;
@@ -65,13 +68,14 @@
 }
 
 .box{
+    border:1px solid black;
     margin-top:30px;
-    margin-left:43%;
+    margin-left:40%;
     /* margin: 5px 43%; */
     padding:10px 0px 0px 30px;
     width:200px;
     height:300px;
-    background-color:rgba(92, 147, 102, 0.717)
+    background-color:#14889f90;
 }
 
 .videos1{
@@ -140,27 +144,29 @@
     display:flex;
 }
 .space{
+    margin-left:5px;
     width:400px;
     height:800px;
     background-color:rgba(71, 156, 128, 0.231);
+    border-radius:10px;
 }
 
 .classroom1{
-    margin-top:20px;
+    /* margin-top:5px; */
     margin-left:20px;
-    width:600px;
     height:680px;
     border-radius:10px;
     background-color:rgba(116, 151, 126, 0.463);
 }
 .classroom2{
+    border:3px dashed black; 
     display:flex;
     margin-top:20px;
     margin-left:50px;
-    width:500px;
+    margin-right:50px;
     height:200px;
     border-radius:10px;
-    background-color:rgba(10, 15, 19, 0.358);
+    background-color:rgba(96, 144, 145, 0.413);
 }
 .classroom2:hover{
     transform:scale(1.15);
@@ -180,6 +186,7 @@
 .myclass{
     text-decoration: none;
 }
+
 .myclass:hover{
     transform:scale(1.1);
 }
@@ -193,6 +200,7 @@
     background-color:rgba(71, 156, 128, 0.231);
 }
 .attachment{
+    border:2px dashed black;
     background-color:rgba(173, 242, 242, 0.61);
     width:120px;
     margin-left:50px;
@@ -200,5 +208,4 @@
     padding-right:10px;
     border-radius:10px;
 }
-
 
